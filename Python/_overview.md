@@ -6,7 +6,7 @@
 
 ## Section 1. Beginner Topics:
 
-### Basic Syntax and Operations
+### 1.1. Basic Syntax and Operations
 - Variables and assignment
 - Data types (int, float, string, boolean)
 - Printing to console
@@ -16,7 +16,7 @@
 - Input from user
 - Type conversion and casting
 
-### Control Flow
+### 1.2. Control Flow
 - Conditional statements (if, elif, else)
 - Comparison operators
 - Logical operators (and, or, not)
@@ -25,14 +25,14 @@
 - Loop control (break, continue, pass)
 - Range function
 
-### Basic Data Structures
+### 1.3. Basic Data Structures
 - Lists (creation, indexing, slicing)
 - Tuples
 - Dictionaries (basic operations)
 - Sets (basic operations)
 - String methods and operations
 
-### Functions Basics
+### 1.4. Functions Basics
 - Function definition and calling
 - Parameters and arguments
 - Return statements
@@ -44,7 +44,7 @@
 
 ## Section 2. Amateur Topics:
 
-### Advanced Data Structures
+### 2.1. Advanced Data Structures
 - List comprehensions
 - Dictionary comprehensions
 - Set comprehensions
@@ -52,7 +52,7 @@
 - Collections module (Counter, defaultdict, OrderedDict, deque)
 - Named tuples
 
-### Object-Oriented Programming
+### 2.2. Object-Oriented Programming
 - Classes and objects
 - Instance variables and methods
 - Constructor (__init__)
@@ -64,14 +64,14 @@
 - Multiple inheritance
 - Method resolution order (MRO)
 
-### Error Handling
+### 2.3. Error Handling
 - Exception handling (try, except, finally)
 - Raising exceptions
 - Custom exceptions
 - Exception hierarchy
 - Context managers (with statement)
 
-### File Operations
+### 2.4. File Operations
 - File reading and writing
 - File modes
 - CSV file handling
@@ -79,7 +79,7 @@
 - Working with file paths
 - Directory operations
 
-### Advanced Functions
+### 2.5. Advanced Functions
 - Lambda functions
 - Higher-order functions
 - Map, filter, reduce
@@ -88,7 +88,7 @@
 - Function annotations
 - Variable-length arguments (*args, **kwargs)
 
-### Modules and Packages
+### 2.6. Modules and Packages
 - Import statements
 - Module creation
 - Package structure
@@ -101,7 +101,7 @@
 
 ## Section 3. Intermediate Topics:
 
-### Advanced OOP Concepts
+### 3.1. Advanced OOP Concepts
 - Abstract base classes
 - Properties and property decorators
 - Descriptors
@@ -111,7 +111,7 @@
 - Magic methods (__str__, __repr__, __eq__, etc.)
 - Composition vs inheritance
 
-### Advanced Functions and Decorators
+### 3.2. Advanced Functions and Decorators
 - Decorator patterns
 - Parameterized decorators
 - Class-based decorators
@@ -119,7 +119,7 @@
 - Partial functions
 - Memoization
 
-### Iterators and Generators
+### 3.3. Iterators and Generators
 - Iterator protocol
 - Custom iterators
 - Generator functions
@@ -128,19 +128,19 @@
 - itertools module
 - Generator delegation (yield from)
 
-### Context Managers
+### 3.4. Context Managers
 - Context manager protocol
 - Creating custom context managers
 - contextlib module
 - Resource management patterns
 
-### Advanced String Operations
+### 3.5. Advanced String Operations
 - Regular expressions
 - String formatting (format(), f-strings)
 - Unicode handling
 - Text processing techniques
 
-### Data Processing
+### 3.6. Data Processing
 - Working with dates and times
 - Mathematical operations
 - Statistical functions
@@ -151,7 +151,7 @@
 
 ## Section 4. Advanced Topics:
 
-### Metaprogramming
+### 4.1. Metaprogramming
 - Advanced metaclasses
 - Dynamic class creation
 - Attribute access control
@@ -160,7 +160,7 @@
 - Abstract syntax trees (AST)
 - Code generation
 
-### Advanced Design Patterns
+### 4.2. Advanced Design Patterns
 - Singleton pattern
 - Factory patterns
 - Observer pattern
@@ -169,7 +169,7 @@
 - Adapter pattern
 - Decorator pattern (structural)
 
-### Concurrency and Parallelism
+### 4.3. Concurrency and Parallelism
 - Threading basics
 - Thread synchronization (locks, semaphores)
 - Queue module
@@ -180,7 +180,7 @@
 - Event loops
 - Concurrent.futures module
 
-### Performance Optimization
+### 4.4. Performance Optimization
 - Profiling code
 - Memory optimization
 - Time complexity analysis
@@ -189,7 +189,7 @@
 - Optimization techniques
 - C extensions basics
 
-### Advanced Standard Library
+### 4.5. Advanced Standard Library
 - Collections.abc
 - Weakref module
 - Copy module (shallow vs deep copy)
@@ -198,7 +198,7 @@
 - Configuration management
 - Command-line argument parsing
 
-### Testing and Debugging
+### 4.6. Testing and Debugging
 - Unit testing with unittest
 - Test-driven development
 - Mock objects and patching
@@ -210,9 +210,9 @@
 
 
 
-## section 5. Expert Topics:
+## Section 5. Expert Topics:
 
-### Architecture and Design
+### 5.1. Architecture and Design
 - Software architecture patterns
 - Dependency injection
 - Plugin architectures
@@ -221,7 +221,7 @@
 - Clean architecture
 - SOLID principles in Python
 
-### Advanced Concurrency
+### 5.2. Advanced Concurrency
 - Advanced asyncio patterns
 - Custom event loops
 - Async context managers
@@ -230,7 +230,7 @@
 - Message queues and brokers
 - Microservices patterns
 
-### Performance and Scalability
+### 5.3. Performance and Scalability
 - Cython integration
 - NumPy C API
 - Memory profiling and optimization
@@ -239,7 +239,7 @@
 - Caching architectures
 - Database connection pooling
 
-### Advanced Metaprogramming
+### 5.4. Advanced Metaprogramming
 - Bytecode manipulation
 - Custom import hooks
 - Runtime code modification
@@ -247,7 +247,7 @@
 - Dynamic proxy creation
 - Code instrumentation
 
-### Integration and Interoperability
+### 5.5. Integration and Interoperability
 - C/C++ integration
 - FFI (Foreign Function Interface)
 - ctypes library
@@ -257,7 +257,7 @@
 - GraphQL integration
 - Database ORMs and raw SQL
 
-### Security and Cryptography
+### 5.6. Security and Cryptography
 - Security best practices
 - Cryptographic libraries
 - Authentication and authorization
@@ -265,7 +265,7 @@
 - Secure coding practices
 - SSL/TLS handling
 
-### Advanced Libraries and Frameworks
+### 5.7. Advanced Libraries and Frameworks
 - Web frameworks (Django, Flask, FastAPI)
 - Data science libraries (NumPy, Pandas, SciPy)
 - Machine learning frameworks
@@ -273,7 +273,7 @@
 - Game development libraries
 - Scientific computing libraries
 
-### Development Tools and Practices
+### 5.8. Development Tools and Practices
 - Virtual environments and dependency management
 - Package distribution (PyPI, wheels)
 - Code formatting and linting
@@ -283,7 +283,7 @@
 - Version control integration
 - Code review practices
 
-### System Programming
+### 5.9. System Programming
 - Operating system interfaces
 - Process management
 - Signal handling
@@ -291,3 +291,4 @@
 - Network programming
 - Socket programming
 - System administration scripts
+
